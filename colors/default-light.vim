@@ -22,7 +22,12 @@ highlight TabLineFill    cterm=reverse
 highlight CursorColumn   ctermbg=Gray
 highlight CursorLine     cterm=underline
 highlight MatchParen     ctermbg=Cyan
-highlight Constant       ctermfg=DarkRed
+
+" String inherits from Constant?
+" I'm not keen on red for strings, in Python will see many strings
+" (bright/light) blue is very readable
+highlight Constant       ctermfg=Blue
+
 highlight Special        ctermfg=DarkMagenta
 highlight Identifier     cterm=NONE ctermfg=DarkCyan
 highlight Statement      ctermfg=DarkYellow
