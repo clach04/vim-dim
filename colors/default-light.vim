@@ -1,34 +1,36 @@
-highlight SpecialKey     ctermfg=4
+highlight SpecialKey     ctermfg=DarkBlue
 highlight TermCursor     cterm=reverse
-highlight NonText        ctermfg=12
-highlight Directory      ctermfg=4
-highlight ErrorMsg       ctermfg=15 ctermbg=1
+highlight NonText        ctermfg=Blue
+highlight Directory      ctermfg=DarkBlue
+highlight ErrorMsg       ctermfg=White ctermbg=DarkRed
 highlight IncSearch      cterm=reverse
-highlight MoreMsg        ctermfg=2
+highlight MoreMsg        ctermfg=DarkGreen
 highlight ModeMsg        cterm=bold
-highlight Question       ctermfg=2
-highlight Title          ctermfg=5
-highlight WarningMsg     ctermfg=1
-highlight WildMenu       ctermfg=0 ctermbg=11
-highlight Conceal        ctermfg=7 ctermbg=7
-highlight SpellBad       ctermbg=9
-highlight SpellRare      ctermbg=13
-highlight SpellLocal     ctermbg=14
-highlight PmenuSbar      ctermbg=8
-highlight PmenuThumb     ctermbg=0
-highlight TabLine        cterm=underline ctermfg=0 ctermbg=7
+highlight Question       ctermfg=DarkGreen
+highlight Title          ctermfg=DarkMagenta
+highlight WarningMsg     ctermfg=DarkRed
+highlight WildMenu       ctermfg=Black ctermbg=Yellow
+highlight Conceal        ctermfg=Gray ctermbg=Gray
+highlight SpellBad       ctermbg=Red
+highlight SpellRare      ctermbg=Magenta
+highlight SpellLocal     ctermbg=Cyan
+highlight PmenuSbar      ctermbg=DarkGray
+highlight PmenuThumb     ctermbg=Black
+highlight TabLine        cterm=underline ctermfg=Black ctermbg=Gray
 highlight TabLineSel     cterm=bold
 highlight TabLineFill    cterm=reverse
-highlight CursorColumn   ctermbg=7
+highlight CursorColumn   ctermbg=Gray
 highlight CursorLine     cterm=underline
-highlight MatchParen     ctermbg=14
-highlight Constant       ctermfg=1
-highlight Special        ctermfg=5
-highlight Identifier     cterm=NONE ctermfg=6
-highlight Statement      ctermfg=3
-highlight PreProc        ctermfg=5
-highlight Type           ctermfg=2
-highlight Underlined     cterm=underline ctermfg=5
-highlight Ignore         ctermfg=15
-highlight Error          ctermfg=15 ctermbg=9
-highlight Todo           ctermfg=0 ctermbg=11
+highlight MatchParen     ctermbg=Cyan
+highlight Constant       ctermfg=DarkRed
+highlight Special        ctermfg=DarkMagenta
+highlight Identifier     cterm=NONE ctermfg=DarkCyan
+highlight Statement      ctermfg=DarkYellow
+highlight PreProc        ctermfg=DarkMagenta
+highlight Type           ctermfg=DarkGreen
+highlight Underlined     cterm=underline ctermfg=DarkMagenta
+highlight Ignore         ctermfg=White
+highlight Error          ctermfg=White ctermbg=Red
+highlight Todo           ctermfg=Black ctermbg=Yellow
+
+" vim91\syntax\dircolors.vim for confirmed color mapping names/numbers
